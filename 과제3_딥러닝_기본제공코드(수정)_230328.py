@@ -51,7 +51,8 @@ def run_model(x_train, y_train):
                   metrics=['accuracy'])
     model.fit(x_train, y_train, batch_size=256, epochs=20)
     return model
-
+#gittest
+#gittest 2
 ### Update: 22.04.01
 acc = 0
 models = []
